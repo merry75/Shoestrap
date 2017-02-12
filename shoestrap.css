@@ -15,6 +15,7 @@
   clear: both;
 } 
 
+
 .col-1 {
   float: left;
   width: 8.33333333%;
@@ -73,6 +74,8 @@
 .col-12 {
   float: left;
   width: 100%;
+  padding: 50px;
+  text-align: justify;
 }
 
 
@@ -81,23 +84,29 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    opacity: 0.8;
+    top: 0;
+
 }
 
 ul.topnav li {
 	float: right;
 }
 
+
 ul.topnav li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 ul.topnav li a:hover:not(.active) {
-	background-color: #111;
+	background-color: green;
 }
 
 ul.topnav li a.active {
@@ -108,9 +117,12 @@ ul.topnav li.right {
 	float: right;
 }
 
+ul.topnav li.left {
+	float: left;
+}
+
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
     ul.topnav li {float: none;}
 }
-
 

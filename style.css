@@ -1,4 +1,33 @@
 div {
-  height: 50px;
-  border: 1px solid red;
+  border: 1px solid grey;
+}
+
+.special-border {
+	border: 2px solid orange;
+	color: orange !important ;
+	font-weight: bold;
+}
+
+.special-height {
+	height: 40px;
+}
+
+.img2 {
+	margin-top: 75px;
+	height: 400px;
+	width: 100%;
+}
+
+.Title1 {
+	font-weight: bold;
+	color: grey;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.featurette {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
 }
